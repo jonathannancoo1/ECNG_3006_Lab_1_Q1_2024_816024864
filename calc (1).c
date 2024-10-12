@@ -71,21 +71,7 @@ void fill_single_digit_positive_number(int arr[], size_t size)
 bool posnum(int num) {
     return (num>0);
 }
-bool negnum(int x) {
-    if (x < 0) {
-        return false; 
-    }
-	else {
-		return true;
-	}
-}
-unsigned int magnitude(int x) {
-    
-    if (x < 0) {
-        return (unsigned int)(-x);  
-    }
-    return (unsigned int)x;  
-}
+
 
 
 const char *true_as_string()
