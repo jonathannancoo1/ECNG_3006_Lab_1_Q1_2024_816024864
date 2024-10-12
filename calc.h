@@ -18,7 +18,5 @@ void fill_single_digit_positive_number(int arr[], size_t size);
 const char *true_as_string();
 const char *false_as_string();
 bool posnum(int num);
-bool negnum(int x);
-unsigned int magnitude(int num);
 
 #endif
